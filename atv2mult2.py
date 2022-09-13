@@ -1,0 +1,5 @@
+name = input()
+name = name.split(' ')
+firstname = name[0].lower()
+lastname = name[-1].lower()
+print(f'{firstname}.{lastname}')
